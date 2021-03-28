@@ -1,1 +1,37 @@
-
+:root {
+    --primary-color: #4caf50;
+    --primary-color-dark: #087f23;
+    --primary-color-light: #80e27e;
+    --primary-color-contrast: #424242;
+}
+body {
+    margin-left: 0px;
+    margin-left: 0px;
+}
+.menubar {
+    background-color: var(--primary-color-contrast);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menubar a {
+    float: left;
+    display: block;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menubar a:hover {
+    background-color: var(--primary-color-light);
+    color: black;
+}
+.menubar a.active {
+    background-color: var(--primary-color-dark);
+    color: white
+}
+.main {
+    margin-top: 50px;
+}
