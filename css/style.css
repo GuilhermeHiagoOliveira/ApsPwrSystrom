@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #4caf50;
+    --primary-color-dark: #087f23;
+    --primary-color-light: #80e27e;
+    --primary-color-contrast: #ffffff;
+    --primary-color-light-contast: #000000;
+
+    --secondary-color: #616161;
+    --secondary-color-dark:#373737;
+    --secundary-color-light:#8e8e8e;
+}
+body {
+    background-color: #eeeeee;
+    margin:0;
+}
+
+.topbar {
+    top: 0;
+    width: 100%;
+    display: block;
+    position: fixed;
+}
+
+.menubar {
+    overflow: hidden;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+.menubar a {
+    float: left;
+    display: block;
+    color: var(--primary-color-contrast);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menubar a:hover {
+    background-color: var(--primary-color-light);
+    color: var(--primary-color-light-contast);
+}
+.menubar a.active {
+    background-color: var(--primary-color-dark);
+    color: var(--primary-color-contrast);
+}
+.main {
+    margin-top: 50px;
+}
+
+.titlebar {
+    overflow: hidden;
+    background-color: var(--primary-color-dark);
+    display: flex;
+    justify-content: center;
+}
+
+.titlebar h1 {
+    margin: 5px;    
+}
+
+.aditionalinfos {
+    background-color: var(--secondary-color);
+    text-align: center;
+    border-top-style:solid;
+    border-color: var(--secondary-color-dark);
+}
+.aditionalinfos a {
+    color: var(--primary-color-contrast);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aditionalinfos a:hover {
+    color: #bbbbbb;
+}
+
+.aditionalinfos p {
+    display: block;
+    padding: 12px;
+    color: var(--primary-color-contrast);
+    margin: 0;
+}
+
+.main {
+    padding-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+}
