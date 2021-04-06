@@ -80,6 +80,7 @@ body {
 
 .aditionalinfos a.active{
 	background-color: var(--secondary-color-dark);
+	color: var(--primary-color-contrast);
 }
 
 .aditionalinfos p {
