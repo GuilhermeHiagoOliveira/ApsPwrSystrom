@@ -100,4 +100,9 @@ body {
 .bibliografia {
 	font-weight: bold;
 	font-size: 1.1em;
+	text-align: justify;
+}
+
+.divbib {
+	word-wrap: break-word;
 }
