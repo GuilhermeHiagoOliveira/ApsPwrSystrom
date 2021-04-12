@@ -1,30 +1,50 @@
 <!DOCTYPE html!>
 
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Integrantes do Grupo - Kevin Systrom</title>
-  </head>
-  
-  <body>
-    <div class="topbar">
-      <div class="titlebar">
-        <h1>Kevin Systrom</h1>
-      </div>
-      <div class="menubar">  
-      
-        <a href="biografia.html">Biografia</a>
-        <a href="vida-pessoal.html">Vida Pessoal</a>
-        <a href="passado-profissional.html">Passado Profissional</a>
-        <a href="atuacao-instagram.html">Atuação no Instagram</a>
-      </div>
-    </div>
-    <div class="main">
-		<h2>Integrantes do Grupo</h2>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<title>Grupo do trabalho</title>
+		<style>
+			main div {
+				width: fit-content;
+			}
+			main div table {
+				border-collapse: separate;
+				border-spacing: 15px;
+			}
+			main div table .table-title {
+				font-weight: boldx;
+			}
+		</style>
+
+	</head>
+	  
+	<body>
+		<header>
+			<div class="titlebar">
+				<h1><a href="index.html">Kevin Systrom</a></h1>
+		  	</div>
+		  	<div class="menubar">  
+				<ul>
+			  		<li>
+						<a href="vida-pessoal.html">Biografia</a>
+			  		</li>
+			  		<li>
+						<a href="passado-profissional.html">Antes do Instagram</a>
+			  		</li>
+			  		<li>
+						<a href="atuacao-instagram.html">Atuação no Instagram</a>
+			  		</li>
+				</ul>
+		  	</div>
+		</header>
+    <main>
 		<div class="grouptable">
+			<h2>Integrantes do Grupo</h2>
 			<table>
-				<tr>
+				<tr class="table-title">
 					<th>Nome</th>
 					<th>RA</th>
 				</tr>
@@ -37,25 +57,35 @@
 					<td>G197BD6</td>
 				</tr>
 				<tr>
-					<td>Eduardo Bonardi Faria</td>
-					<td>N6936D8</td>
+					<td>Juan Monteiro Veronez</td>
+					<td>G262972</td>
 				</tr>
 				<tr>
 					<td>Samuel Canuto Vieira</td>
 					<td>G3064B8</td>
 				</tr>
-				<tr>
-					<td>Juan Monteiro Veronez</td>
-					<td>G262972</td>
-				</tr>
 			</table>
 		</div>
-    </div>
+    </main>
     <footer class="aditionalinfos">
-      <a class="active" href="integrantes-grupo.html">Grupo trabalho</a>
-      <a href="bibliografia.html">Bibliografia do trabalho</a>
-      <a href="https://github.com/PkzinN/ApsPwrSystrom">Repositório Github</a>
-      <p> Trabalho de PWR 2021/1</p>
-    </footer>
-  </body>
+		<ul>
+		  	<li class="active">
+				<a href="integrantes-grupo.html">Grupo</a>
+			</li>
+			<li>
+				<a href="bibliografia.html">Bibliografia</a>
+		  	</li>
+		 	<li>
+				<a href="https://github.com/PkzinN/ApsPwrSystrom">Repositório Github</a>
+		  	</li>
+		  	<li id="bywork">
+				<p>Trabalho de PWR 2021/1</p>
+		  	</li>
+		  	<li id="license">
+				<p>MIT License</p>
+				<p> Copyright &copy; 2021 grupo envolvido</p>
+		  	</li>
+			</ul>
+	  	</footer>
+  	</body>
  </html>
